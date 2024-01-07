@@ -1,0 +1,159 @@
+
+.Home {
+    height: 100vh;
+    background-color: rgb(37, 48, 49);
+    scroll-behavior: smooth;
+    transition: .5s;
+}
+.bottom-navbar {
+    background-color: #333333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    #333333 rgb(49, 86, 89)
+}
+.bottom-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-navbar li {
+    display: inline-flex;
+    margin: 0vh 8vw;
+}
+
+.bottom-navbar a {
+    
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.bottom-navbar a:hover {
+    color: #b3b3b3;
+}
+
+header {
+    width: 100vw;
+    color:rgb(124, 169, 130);
+    padding-top: 1vh;
+    display: inline-block;
+    text-align: center;
+}
+
+.down {
+    font-size: 2vh;
+    position: relative;
+    top: -.4vh;
+}
+
+#drop-con {
+    visibility: hidden;
+    z-index: 100;
+    position: relative;
+    top: -4vh;
+    transition: 0.5s;}
+
+.drop-con a {
+    text-decoration: none;
+    color: rgb(124, 169, 130);
+    display: block;
+}
+
+.Sandz {
+    line-height: 5vh;
+    color:rgb(124, 169, 130);
+    text-shadow: 0 0 10px rgba(124, 169, 130, 0.8), 0 0 20px rgba(124, 169, 130, 0.6), 0 0 30px rgba(124, 169, 130, 0.4);
+}
+.Home section {
+    margin-left: 15vw;
+    z-index: 10;
+    display: grid;
+    position: absolute;
+    top: 35vh;
+}
+
+.con {
+    padding-right: 15vw;
+    margin-top: 2vh;
+    color: lightblue;
+}
+
+.exp {
+    flex-wrap: auto;
+    text-align: center;
+    width: 30vw;
+    scroll-behavior: smooth;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    border: solid rgb(49, 86, 89);
+    margin-top: 2vh;
+    padding: 1vh 2vw;
+    font-weight: 500;
+}
+
+.exp:hover {
+    font-weight: 500;
+    transition: 0.5s;
+    border-radius: 7px;
+    color:rgb(124, 169, 130);
+    
+}
+
+.page {
+    transition: .5s;
+    height: 100vh;
+    background-color: rgb(37, 48, 49);
+}
+
+.About {
+    border-bottom: solid transparen ;
+    background-color: rgb(37, 48, 49);
+    height: auto;
+}
+
+.About section {
+    margin-top: 5vh;
+    color: white;
+}
+
+.About p {
+    line-height: 4vh;
+    padding: 0vh 8vw;
+}
+
+.About h5 {
+    color:rgb(124, 169, 130);
+    display: grid;
+    margin-left: 8vw;
+}
+
+.title {
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    color:rgb(124, 169, 130);
+    padding-top: 1vh;
+}
+
+.Project {
+}
+
+@media only screen and (max-width:320px) {
+    .exp {
+        padding: 1vh 0vw ;
+        width:35vw;
+    }
+    .con{
+        padding-right: 15vw;
+    }
+    
+}
